@@ -24,6 +24,7 @@
     "node": ">=20.19 <22 || >=22.12"
   },
   "dependencies": {
+    "@mjackson/node-fetch-server": "^0.7.0",
     "@prisma/client": "^6.16.3",
     "@react-router/dev": "^7.12.0",
     "@react-router/fs-routes": "^7.12.0",
