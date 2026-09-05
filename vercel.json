@@ -1,6 +1,12 @@
 {
   "buildCommand": "npm run build",
   "installCommand": "npm ci",
+  "rewrites": [
+    {
+      "source": "/((?!api(?:/|$)).*)",
+      "destination": "/api"
+    }
+  ],
   "functions": {
     "api/[[...path]].js": {
       "includeFiles": "build/server/**"
