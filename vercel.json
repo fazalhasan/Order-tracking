@@ -3,8 +3,7 @@
   "installCommand": "npm ci",
   "functions": {
     "api/[[...path]].js": {
-      "runtime": "nodejs22.x",
-      "includeFiles": ["build/server/**"]
+      "includeFiles": "build/server/**"
     }
   }
 }
